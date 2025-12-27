@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>C Programming</title>
+  <link rel="stylesheet" href="c programming.css">
+</head>
+<body>
+  <h1>C Programming – My Core Strength</h1>
+  <p class="c-summary">
+    Proficient in building memory-efficient C programs.<br>
+    I have a strong grasp of C programming concepts backed by hands-on experience in projects and debugging.
+  </p>
+
+  <div class="concepts-grid">
+    <div class="concept-card" data-hover="Confident with variable types and scope.">Variables & Data Types</div>
+    <div class="concept-card" data-hover="Skilled in using all C operators and expressions.">Operators & Expressions</div>
+    <div class="concept-card" data-hover="Mastery in if, switch, for, while, and do-while.">Control Statements</div>
+    <div class="concept-card" data-hover="Able to write modular, reusable code.">Functions</div>
+    <div class="concept-card" data-hover="Efficient with arrays and string manipulation.">Arrays & Strings</div>
+    <div class="concept-card" data-hover="Comfortable with pointer arithmetic and memory access.">Pointers</div>
+    <div class="concept-card" data-hover="Use structures/unions for complex data.">Structures & Unions</div>
+    <div class="concept-card" data-hover="Read/write files with error handling.">File Handling</div>
+    <div class="concept-card" data-hover="Dynamic allocation using malloc/calloc/free.">Dynamic Memory Allocation</div>
+  </div>
+
+  <div class="progress-container">
+    <div class="progress-title">Proficiency Level</div>
+    <div class="progress-label">
+      <span>Understanding</span>
+      <span>60%</span>
+    </div>
+    <div class="progress-bar-bg">
+      <div class="progress-bar-fill"></div>
+    </div>
+    <div class="metrics">
+      <span>Projects Done: <strong>2</strong></span>
+      <span>Hours Practiced: <strong>150+</strong></span>
+      <span>Last Updated: <strong>December 2025</strong></span>
+    </div>
+  </div>
+
+  <script>
+    // Progress bar animation on scroll into view
+    function animateProgressBar() {
+      const bar = document.querySelector('.progress-bar-fill');
+      const rect = bar.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom > 0) {
+        bar.style.width = '60%';
+        window.removeEventListener('scroll', animateProgressBar);
+      }
+    }
+    window.addEventListener('scroll', animateProgressBar);
+    window.addEventListener('DOMContentLoaded', animateProgressBar);
+
+    // Concept card hover effect
+    document.querySelectorAll('.concept-card').forEach(card => {
+      card.addEventListener('mouseenter', function() {
+        this.setAttribute('data-original', this.textContent);
+        this.textContent = this.getAttribute('data-hover');
+      });
+      card.addEventListener('mouseleave', function() {
+        this.textContent = this.getAttribute('data-original');
+      });
+    });
+  </script>
+</body>
+</html>

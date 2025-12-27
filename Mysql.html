@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MySQL</title>
+  <link rel="stylesheet" href="c programming.css">
+</head>
+<body>
+  <h1>MySQL – My Core Strength</h1>
+  <p class="c-summary">
+    Learning relational database management with MySQL.<br>
+    I am building a solid foundation in SQL queries, database design, and data manipulation.
+  </p>
+
+  <div class="concepts-grid">
+    <div class="concept-card" data-hover="Understanding databases, tables, and relationships.">Database Basics</div>
+    <div class="concept-card" data-hover="Writing SELECT, INSERT, UPDATE, DELETE queries.">CRUD Operations</div>
+    <div class="concept-card" data-hover="Filtering, sorting, and joining tables.">Querying Data</div>
+    <div class="concept-card" data-hover="Using PRIMARY KEY, FOREIGN KEY, and indexes.">Keys & Indexes</div>
+    <div class="concept-card" data-hover="Designing normalized database schemas.">Database Design</div>
+    <div class="concept-card" data-hover="Using aggregate functions and GROUP BY.">Aggregation</div>
+    <div class="concept-card" data-hover="Managing users and permissions.">User Management</div>
+    <div class="concept-card" data-hover="Performing backups and restores.">Backup & Restore</div>
+  </div>
+
+  <div class="progress-container">
+    <div class="progress-title">Proficiency Level</div>
+    <div class="progress-label">
+      <span>Understanding</span>
+      <span>10%</span>
+    </div>
+    <div class="progress-bar-bg">
+      <div class="progress-bar-fill"></div>
+    </div>
+    <div class="metrics">
+      <span>Projects Done: <strong>0</strong></span>
+      <span>Hours Practiced: <strong>30+</strong></span>
+      <span>Last Updated: <strong>December 2025</strong></span>
+    </div>
+  </div>
+
+  <script>
+    // Progress bar animation on scroll into view
+    function animateProgressBar() {
+      const bar = document.querySelector('.progress-bar-fill');
+      const rect = bar.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom > 0) {
+        bar.style.width = '10%';
+        window.removeEventListener('scroll', animateProgressBar);
+      }
+    }
+    window.addEventListener('scroll', animateProgressBar);
+    window.addEventListener('DOMContentLoaded', animateProgressBar);
+
+    // Concept card hover effect
+    document.querySelectorAll('.concept-card').forEach(card => {
+      card.addEventListener('mouseenter', function() {
+        this.setAttribute('data-original', this.textContent);
+        this.textContent = this.getAttribute('data-hover');
+      });
+      card.addEventListener('mouseleave', function() {
+        this.textContent = this.getAttribute('data-original');
+      });
+    });
+  </script>
+</body>
+</html>

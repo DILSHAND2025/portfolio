@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Python</title>
+  <link rel="stylesheet" href="c programming.css">
+</head>
+<body>
+  <h1>Python </h1>
+  <p class="c-summary">
+    Writing clean, readable, and efficient Python code.<br>
+    I am steadily mastering Python fundamentals with practical experience in scripting, automation, and problem solving.
+  </p>
+
+  <div class="concepts-grid">
+    <div class="concept-card" data-hover="Understanding variables, numbers, strings, and booleans.">Variables & Data Types</div>
+    <div class="concept-card" data-hover="Using if, elif, else, for, and while.">Control Flow</div>
+    <div class="concept-card" data-hover="Defining and calling functions, using arguments and return values.">Functions</div>
+    <div class="concept-card" data-hover="Working with lists, tuples, sets, and dictionaries.">Data Structures</div>
+    <div class="concept-card" data-hover="Reading from and writing to files.">File Handling</div>
+    <div class="concept-card" data-hover="Handling exceptions with try, except, finally.">Exception Handling</div>
+    <div class="concept-card" data-hover="Writing and importing modules, using packages.">Modules & Packages</div>
+    <div class="concept-card" data-hover="Using classes, objects, and inheritance.">OOP Basics</div>
+  </div>
+
+  <div class="progress-container">
+    <div class="progress-title">Proficiency Level</div>
+    <div class="progress-label">
+      <span>Understanding</span>
+      <span>50%</span>
+    </div>
+    <div class="progress-bar-bg">
+      <div class="progress-bar-fill"></div>
+    </div>
+    <div class="metrics">
+      <span>Projects Done: <strong>0</strong></span>
+      <span>Hours Practiced: <strong>80+</strong></span>
+      <span>Last Updated: <strong>December 2025</strong></span>
+    </div>
+  </div>
+
+  <script>
+    // Progress bar animation on scroll into view
+    function animateProgressBar() {
+      const bar = document.querySelector('.progress-bar-fill');
+      const rect = bar.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom > 0) {
+        bar.style.width = '50%';
+        window.removeEventListener('scroll', animateProgressBar);
+      }
+    }
+    window.addEventListener('scroll', animateProgressBar);
+    window.addEventListener('DOMContentLoaded', animateProgressBar);
+
+    // Concept card hover effect
+    document.querySelectorAll('.concept-card').forEach(card => {
+      card.addEventListener('mouseenter', function() {
+        this.setAttribute('data-original', this.textContent);
+        this.textContent = this.getAttribute('data-hover');
+      });
+      card.addEventListener('mouseleave', function() {
+        this.textContent = this.getAttribute('data-original');
+      });
+    });
+  </script>

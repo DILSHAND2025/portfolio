@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JAVA</title>
+  <link rel="stylesheet" href="c programming.css">
+</head>
+<body>
+  <h1>JAVA – My Core Strength</h1>
+  <p class="c-summary">
+    Exploring Java programming concepts.<br>
+    I am starting my journey with Java, focusing on object-oriented programming, data structures, and integration with web technologies.
+  </p>
+
+  <div class="concepts-grid">
+    <div class="concept-card" data-hover="Understanding OOPS, data structures.">JAVA Basics</div>
+    <div class="concept-card" data-hover="Polymorphism, inheritance, encapsulation.">OOPS</div>
+    <div class="concept-card" data-hover="Understanding polymorphism in Java.">Polymorphism</div>
+    <div class="concept-card" data-hover="multi inheritance , multi-level inheritance.">Inheritance</div>
+    <div class="concept-card" data-hover="Encapsulation in Java.">Encapsulation</div>
+    <div class="concept-card" data-hover="Java Collections Framework.">Data Structures</div>
+    <div class="concept-card" data-hover="Exception handling mechanisms.">Exception Handling</div>
+  </div>
+
+  <div class="progress-container">
+    <div class="progress-title">Proficiency Level</div>
+    <div class="progress-label">
+      <span>Understanding</span>
+      <span>30%</span>
+    </div>
+    <div class="progress-bar-bg">
+      <div class="progress-bar-fill"></div>
+    </div>
+    <div class="metrics">
+      <span>Projects Done: <strong>0</strong></span>
+      <span>Hours Practiced: <strong>2+</strong></span>
+      <span>Last Updated: <strong>December 2025</strong></span>
+    </div>
+  </div>
+
+  <script>
+    // Progress bar animation on scroll into view
+    function animateProgressBar() {
+      const bar = document.querySelector('.progress-bar-fill');
+      const rect = bar.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom > 0) {
+        bar.style.width = '30%';
+        window.removeEventListener('scroll', animateProgressBar);
+      }
+    }
+    window.addEventListener('scroll', animateProgressBar);
+    window.addEventListener('DOMContentLoaded', animateProgressBar);
+
+    // Concept card hover effect
+    document.querySelectorAll('.concept-card').forEach(card => {
+      card.addEventListener('mouseenter', function() {
+        this.setAttribute('data-original', this.textContent);
+        this.textContent = this.getAttribute('data-hover');
+      });
+      card.addEventListener('mouseleave', function() {
+        this.textContent = this.getAttribute('data-original');
+      });
+    });
+  </script>
+</body>
+</html>

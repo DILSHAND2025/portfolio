@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML & CSS</title>
+  <link rel="stylesheet" href="Htmlcss.css">
+</head>
+<body>
+  <h1>HTML &amp; CSS – My Core Strength</h1>
+  <p class="c-summary">
+    Proficient in building responsive and visually appealing web pages.<br>
+    I have a strong grasp of HTML5 and CSS3 concepts, with hands-on experience in modern layouts and styling.
+  </p>
+
+  <div class="concepts-grid">
+    <div class="concept-card" data-hover="Semantic tags, forms, tables, and accessibility.">HTML5 Elements</div>
+    <div class="concept-card" data-hover="Selectors, combinators, and specificity.">CSS Selectors</div>
+    <div class="concept-card" data-hover="Flexbox layouts for responsive design.">Flexbox</div>
+    <div class="concept-card" data-hover="Grid layouts for complex page structures.">CSS Grid</div>
+    <div class="concept-card" data-hover="Transitions, transforms, and keyframe animations.">CSS Animations</div>
+    <div class="concept-card" data-hover="Responsive design with media queries.">Media Queries</div>
+    <div class="concept-card" data-hover="Custom fonts, icons, and variables.">Web Fonts & Variables</div>
+    <div class="concept-card" data-hover="Organized, maintainable, and scalable CSS.">Best Practices</div>
+  </div>
+
+  <div class="progress-container">
+    <div class="progress-title">Proficiency Level</div>
+    <div class="progress-label">
+      <span>Understanding</span>
+      <span>50%</span>
+    </div>
+    <div class="progress-bar-bg">
+      <div class="progress-bar-fill"></div>
+    </div>
+    <div class="metrics">
+      <span>Projects Done: <strong>2/strong></span>
+      <span>Hours Practiced: <strong>200+</strong></span>
+      <span>Last Updated: <strong>December 2025</strong></span>
+    </div>
+  </div>
+
+  <script>
+    // Progress bar animation on scroll into view
+    function animateProgressBar() {
+      const bar = document.querySelector('.progress-bar-fill');
+      const rect = bar.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom > 0) {
+        bar.style.width = '50%';
+        window.removeEventListener('scroll', animateProgressBar);
+      }
+    }
+    window.addEventListener('scroll', animateProgressBar);
+    window.addEventListener('DOMContentLoaded', animateProgressBar);
+
+    // Concept card hover effect
+    document.querySelectorAll('.concept-card').forEach(card => {
+      card.addEventListener('mouseenter', function() {
+        this.setAttribute('data-original', this.textContent);
+        this.textContent = this.getAttribute('data-hover');
+      });
+      card.addEventListener('mouseleave', function() {
+        this.textContent = this.getAttribute('data-original');
+      });
+    });
+  </script>
+</body>
+</html>
