@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dilshand B — Software Engineer Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0f172a;
+      --secondary: #334155;
+      --muted: #64748b;
+      --accent: #2563eb;
+      --border: #e2e8f0;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      color: var(--secondary);
+      background-color: var(--bg);
+      line-height: 1.5;
+      font-size: 14px;
+      padding: 32px 16px;
+    }
+    .resume-wrapper {
+      max-width: 850px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 48px;
+      box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05);
+    }
+    .top-actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .back-link {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .print-btn {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .header {
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 16px;
+      margin-bottom: 20px;
+    }
+    .header h1 {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--primary);
+      letter-spacing: -0.02em;
+    }
+    .role-title {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--accent);
+      margin-top: 2px;
+    }
+    .contact-line {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-top: 8px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .contact-line a { color: var(--muted); text-decoration: none; }
+    .contact-line a:hover { color: var(--accent); }
+    
+    .section-title {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--primary);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 4px;
+      margin-top: 20px;
+      margin-bottom: 12px;
+    }
+    .item { margin-bottom: 14px; }
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+    .item-title { font-weight: 700; color: var(--primary); font-size: 14px; }
+    .item-subtitle { font-weight: 600; color: var(--accent); font-size: 13px; }
+    .item-date { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); }
+    .item-bullets { margin-top: 6px; padding-left: 18px; }
+    .item-bullets li { margin-bottom: 4px; color: var(--secondary); font-size: 13px; line-height: 1.5; }
+    
+    .skills-block {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      gap: 8px;
+      margin-bottom: 6px;
+      font-size: 13px;
+    }
+    .skills-cat { font-weight: 700; color: var(--primary); }
+    .skills-val { color: var(--secondary); }
+
+    @media print {
+      body { background: #fff; padding: 0; }
+      .resume-wrapper { border: none; box-shadow: none; padding: 0; }
+      .top-actions { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="resume-wrapper">
+    <div class="top-actions">
+      <a href="../index.html" class="back-link">← Back to Portfolio</a>
+      <button class="print-btn" onclick="window.print()">Print / Save PDF</button>
+    </div>
+
+    <header class="header">
+      <h1>Dilshand B</h1>
+      <div class="role-title">Computer Science Engineer | Java & Full-Stack Developer</div>
+      <div class="contact-line">
+        <span>Email: <a href="mailto:dilshandcse@gmail.com">dilshandcse@gmail.com</a></span>
+        <span>GitHub: <a href="https://github.com/DILSHAND2025" target="_blank">github.com/DILSHAND2025</a></span>
+        <span>LinkedIn: <a href="https://www.linkedin.com/in/dilshand-b-141581331" target="_blank">linkedin.com/in/dilshand-b-141581331</a></span>
+        <span>Location: Tamil Nadu, India</span>
+      </div>
+    </header>
+
+    <section>
+      <div class="section-title">Education</div>
+      <div class="item">
+        <div class="item-header">
+          <div class="item-title">Bannari Amman Institute of Technology</div>
+          <div class="item-date">2023 – 2027 (Expected)</div>
+        </div>
+        <div class="item-subtitle">Bachelor of Engineering in Computer Science and Engineering (3rd Year)</div>
+        <ul class="item-bullets">
+          <li>Current Academic Cumulative Performance: <strong>CGPA: 8.10 / 10</strong>.</li>
+          <li>Relevant Coursework: Data Structures & Algorithms, Object-Oriented Programming (Java), Database Management Systems (SQL), Operating Systems, Computer Networks.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title">Technical Skills</div>
+      <div class="skills-block">
+        <div class="skills-cat">Languages:</div>
+        <div class="skills-val">Java, Python, C, JavaScript (ES6+), SQL</div>
+      </div>
+      <div class="skills-block">
+        <div class="skills-cat">Frontend:</div>
+        <div class="skills-val">React, HTML5, CSS3, DOM Manipulation, Responsive Design</div>
+      </div>
+      <div class="skills-block">
+        <div class="skills-cat">Backend:</div>
+        <div class="skills-val">Java, Spring Boot, FastAPI, RESTful APIs</div>
+      </div>
+      <div class="skills-block">
+        <div class="skills-cat">Databases:</div>
+        <div class="skills-val">MySQL, MongoDB</div>
+      </div>
+      <div class="skills-block">
+        <div class="skills-cat">AI / ML & Security:</div>
+        <div class="skills-val">Scikit-learn, TF-IDF, Logistic Regression, NLP, Email Forensics, Threat Scoring</div>
+      </div>
+      <div class="skills-block">
+        <div class="skills-cat">Tools & Platforms:</div>
+        <div class="skills-val">Git, GitHub, VS Code, Amazon Web Services (AWS)</div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title">Featured Projects</div>
+      <div class="item">
+        <div class="item-header">
+          <div class="item-title">MAVERICK — AI Threat Detection & Email Forensic Intelligence</div>
+          <div class="item-date">React, Python, FastAPI, Scikit-learn</div>
+        </div>
+        <div class="item-subtitle">Lead Developer & Machine Learning Integrator | <a href="https://phishguard-ai-mu-fawn.vercel.app" target="_blank" style="color:var(--accent);">Live Demo</a> | <a href="https://github.com/DILSHAND2025/phishguard-ai" target="_blank" style="color:var(--accent);">GitHub</a></div>
+        <ul class="item-bullets">
+          <li>Architected an end-to-end email threat investigation platform combining TF-IDF vectorization and Logistic Regression.</li>
+          <li>Achieved <strong>96.49% validation accuracy</strong> evaluated on 3,727 real-world test email samples.</li>
+          <li>Engineered automated email header parsing (SPF/DKIM/DMARC checks), sender IP geolocation extraction, and suspicious URL risk triage.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <div class="item-title">GigShield AI — Parametric Income Protection for Gig Workers</div>
+          <div class="item-date">React, JavaScript, AI, Guidewire DEVTrails 2026</div>
+        </div>
+        <div class="item-subtitle">Team BIT's Visionary Victors | <a href="https://github.com/DILSHAND2025/Guidewire_DEVTrail-2026" target="_blank" style="color:var(--accent);">GitHub</a></div>
+        <ul class="item-bullets">
+          <li>Developed an innovative parametric insurance solution protecting delivery and ride-share gig workers against weather and disruption events.</li>
+          <li>Modeled micro-premium plans (₹25/week) with automated claim verification triggers delivering up to ₹500 instant relief payouts.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <div class="item-title">Student Record Management System & Algorithmic Problem Solving</div>
+          <div class="item-date">Java, OOP, Collections, MySQL</div>
+        </div>
+        <div class="item-subtitle">Core Java Developer | <a href="https://github.com/DILSHAND2025/Student-Record-Management" target="_blank" style="color:var(--accent);">GitHub</a></div>
+        <ul class="item-bullets">
+          <li>Implemented a robust, modular Java desktop and record management architecture utilizing OOP principles, encapsulation, and exception handling.</li>
+          <li>Solved <strong>140+ algorithmic challenges</strong> across LeetCode and DSA focusing on arrays, strings, two-pointers, hash tables, and sorting algorithms.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title">Certifications</div>
+      <ul class="item-bullets">
+        <li><strong>Oracle Certified Java SE 17 Developer</strong> — Oracle</li>
+        <li><strong>AWS Cloud Practitioner Course Completion</strong> — Amazon Web Services</li>
+        <li><strong>Oracle Cloud Infrastructure Foundations Associate</strong> — Oracle</li>
+        <li><strong>Oracle AI Foundations Associate</strong> — Oracle</li>
+        <li><strong>Programming in C</strong> — Infosys Springboard</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>

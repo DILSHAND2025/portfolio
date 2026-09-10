@@ -2,114 +2,1622 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Dilshand's Portfolio</title>
-  <link rel="icon" type="image/png" href="images/DILLU.jpg" />
-  <link rel="stylesheet" href="portfolio.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Primary Meta Tags -->
+  <title>Dilshand B | Computer Science Engineer | Java & Full-Stack Developer</title>
+  <meta name="title" content="Dilshand B | Computer Science Engineer | Java & Full-Stack Developer" />
+  <meta name="description" content="Portfolio of Dilshand B, a 3rd-year Computer Science Engineering student focused on Java, full-stack development, AI/ML threat intelligence, and cybersecurity." />
+  <meta name="author" content="Dilshand B" />
+  <meta name="keywords" content="Dilshand B, Software Engineer, Java Developer, Full-Stack Developer, AI ML, Phishing Detection, MAVERICK, Bannari Amman Institute of Technology, Bannari Amman, Computer Science, DSA, LeetCode" />
+  <link rel="canonical" href="https://dilshand2025.github.io/portfolio/" />
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://dilshand2025.github.io/portfolio/" />
+  <meta property="og:title" content="Dilshand B | Computer Science Engineer | Java & Full-Stack Developer" />
+  <meta property="og:description" content="Portfolio of Dilshand B: Building practical software, full-stack applications, and AI-powered solutions. Explore MAVERICK, GigShield AI, and 140+ DSA problem solutions." />
+  <meta property="og:image" content="https://dilshand2025.github.io/portfolio/assets/images/DILLU.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://dilshand2025.github.io/portfolio/" />
+  <meta name="twitter:title" content="Dilshand B | Computer Science Engineer | Java & Full-Stack Developer" />
+  <meta name="twitter:description" content="Portfolio of Dilshand B: Building practical software, full-stack applications, and AI-powered solutions." />
+  <meta name="twitter:image" content="https://dilshand2025.github.io/portfolio/assets/images/DILLU.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/images/DILLU.jpg" />
+
+  <!-- Google Fonts: Plus Jakarta Sans, Inter, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Production Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <header>
-    <h1>DILSHAND B</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#certificates">Certificates</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- =========================================================================
+       01. STICKY NAVIGATION BAR
+       ========================================================================= -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <!-- Left: Developer Brand Mark -->
+      <a href="#home" class="nav-brand" aria-label="Dilshand B Home">
+        <div class="brand-mark">D</div>
+        <div class="brand-info">
+          <span class="brand-name">Dilshand B</span>
+          <span class="brand-role">CS Engineer • Full-Stack &amp; Java</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#achievements" class="nav-link">Achievements</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Right: Social & Download Resume Action -->
+      <div class="nav-actions">
+        <div class="social-links-nav" aria-label="Social Profiles">
+          <a href="https://github.com/DILSHAND2025" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub Profile" title="GitHub">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/dilshand-b-141581331" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn Profile" title="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+            </svg>
+          </a>
+          <a href="https://leetcode.com/u/DILSHAND2025/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LeetCode Profile" title="LeetCode (140+ Solved)">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M16.102 17.93l-2.697 2.607c-.466.467-1.111.662-1.823.662s-1.357-.195-1.824-.662l-4.332-4.363c-.467-.467-.702-1.15-.702-1.863s.235-1.357.702-1.824l4.319-4.38c.467-.467 1.125-.645 1.837-.645s1.357.195 1.823.662l2.697 2.606c.514.515 1.365.497 1.9-.038.535-.536.553-1.387.039-1.901l-2.609-2.636a5.215 5.215 0 0 0-3.85-1.455c-1.472 0-2.916.582-3.96 1.626L3.308 10.45C2.264 11.494 1.682 12.938 1.682 14.41s.582 2.916 1.626 3.96l4.332 4.363c1.044 1.044 2.488 1.626 3.96 1.626s2.916-.582 3.96-1.626l2.609-2.636c.514-.514.496-1.365-.039-1.901-.535-.535-1.386-.553-1.9.038z"/>
+              <path d="M10.802 13.567h10.45c.745 0 1.349-.604 1.349-1.349s-.604-1.349-1.349-1.349h-10.45c-.745 0-1.349.604-1.349 1.349s.604 1.349 1.349 1.349z"/>
+            </svg>
+          </a>
+        </div>
+
+        <a href="resume/index.html" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" id="nav-resume-btn" title="Download & View Resume">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          Download Resume
+        </a>
+
+        <!-- Mobile Hamburger Menu Button -->
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Open Mobile Navigation Menu" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
   </header>
 
-<section id="about">
-  <div class="about-container">
-    <div class="about-text">
-      <h2>About Me</h2>
-      <p>I am Dilshand.B</p>
-      <p>Pursuing Bachelor of Engineering (B.E.) in Computer Science and Engineering at Bannari Amman Institute of Technology, currently in Second Year.</p>
-      <p>Maintains a consistent academic performance with a Current CGPA of 8.10.</p>
-      <p>Completed 14 years of formal schooling at K.G. International School, with a strong foundation in academics and discipline.</p>
-      <p>Aspiring Full Stack Developer with a keen interest in designing and developing clean, scalable, and user-centric web applications.</p>
-      <p>Passionate about modern web technologies, continuous learning, and solving practical challenges through technology.</p>
-      <p>Committed to maintaining high coding standards, best practices, and a problem-solving mindset.</p>
-      <p>Actively seeking opportunities to enhance skills, collaborate on innovative projects, and contribute meaningfully to the tech community.</p>
+  <!-- Mobile Drawer & Overlay -->
+  <div class="mobile-nav-overlay" id="mobile-overlay"></div>
+  <aside class="mobile-nav-drawer" id="mobile-drawer" aria-label="Mobile Navigation">
+    <div class="mobile-nav-header">
+      <div class="brand-info">
+        <span class="brand-name">Dilshand B</span>
+        <span class="brand-role">Computer Science Engineer</span>
+      </div>
+      <button class="modal-close-btn" id="mobile-close-btn" aria-label="Close navigation menu">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
     </div>
-    <div class="about-image">
-      <img src="images/DILLU.jpg" alt="Profile Photo" class="profile-photo">
+    <div class="mobile-nav-links">
+      <a href="#home" class="mobile-nav-link active">Home</a>
+      <a href="#about" class="mobile-nav-link">About</a>
+      <a href="#skills" class="mobile-nav-link">Skills</a>
+      <a href="#projects" class="mobile-nav-link">Selected Work</a>
+      <a href="#achievements" class="mobile-nav-link">Achievements</a>
+      <a href="#certifications" class="mobile-nav-link">Certifications</a>
+      <a href="#contact" class="mobile-nav-link">Contact</a>
+    </div>
+    <div class="mobile-nav-footer">
+      <a href="resume/index.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="width: 100%;">
+        Download Resume (PDF)
+      </a>
+      <div style="display: flex; gap: 12px; justify-content: center;">
+        <a href="https://github.com/DILSHAND2025" target="_blank" rel="noopener noreferrer" class="social-pill">GitHub</a>
+        <a href="https://www.linkedin.com/in/dilshand-b-141581331" target="_blank" rel="noopener noreferrer" class="social-pill">LinkedIn</a>
+        <a href="https://leetcode.com/u/DILSHAND2025/" target="_blank" rel="noopener noreferrer" class="social-pill">LeetCode</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- =========================================================================
+       MAIN CONTENT
+       ========================================================================= -->
+  <main id="main-content">
+
+    <!-- =======================================================================
+         02. HERO SECTION
+         ======================================================================= -->
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Left: Identity & Core Proposition -->
+          <div class="hero-content">
+            <div class="hero-badge-container">
+              <div class="status-badge" role="status">
+                <span class="status-pulse" aria-hidden="true"></span>
+                <span>Open to Software Engineering Internships</span>
+              </div>
+            </div>
+
+            <h1 class="hero-title">
+              Hi, I'm <span class="highlight">Dilshand B.</span>
+            </h1>
+
+            <div class="hero-headline">
+              Computer Science Engineer building practical software and AI-powered solutions.
+            </div>
+
+            <p class="hero-description">
+              3rd-year CSE student at Bannari Amman Institute of Technology (CGPA: 8.10). Passionate about building robust backend architectures in Java and Spring Boot, modern interfaces in React, and applied machine learning models for cybersecurity intelligence.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#projects" class="btn btn-primary btn-lg">
+                View My Work
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <polyline points="19 12 12 19 5 12"></polyline>
+                </svg>
+              </a>
+              <a href="resume/index.html" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-lg" id="hero-resume-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                Download Resume
+              </a>
+            </div>
+
+            <div class="hero-social-row">
+              <span class="hero-social-label">Profiles:</span>
+              <div class="hero-social-links">
+                <a href="https://github.com/DILSHAND2025" target="_blank" rel="noopener noreferrer" class="social-pill">
+                  GitHub
+                  <span style="color: var(--text-light); font-size: 0.75rem;">↗</span>
+                </a>
+                <a href="https://www.linkedin.com/in/dilshand-b-141581331" target="_blank" rel="noopener noreferrer" class="social-pill">
+                  LinkedIn
+                  <span style="color: var(--text-light); font-size: 0.75rem;">↗</span>
+                </a>
+                <a href="https://leetcode.com/u/DILSHAND2025/" target="_blank" rel="noopener noreferrer" class="social-pill">
+                  LeetCode
+                  <span style="color: var(--accent-primary); font-weight: 700;">140+ Solved</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Technical Developer Visual Card -->
+          <div class="hero-visual-card" aria-label="System Pipeline & Architecture Visual">
+            <div class="terminal-header">
+              <div class="terminal-controls">
+                <span class="control-dot dot-red"></span>
+                <span class="control-dot dot-yellow"></span>
+                <span class="control-dot dot-green"></span>
+              </div>
+              <div class="terminal-title">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="4 17 10 11 4 5"></polyline>
+                  <line x1="12" y1="19" x2="20" y2="19"></line>
+                </svg>
+                ThreatClassifier.java
+              </div>
+              <span class="terminal-badge">MAVERICK CORE</span>
+            </div>
+
+            <div class="terminal-body">
+              <div class="code-line">
+                <span class="line-no">01</span>
+                <span class="code-content"><span class="c-keyword">public class</span> <span class="c-type">ThreatEngine</span> {</span>
+              </div>
+              <div class="code-line">
+                <span class="line-no">02</span>
+                <span class="code-content">&nbsp;&nbsp;<span class="c-keyword">private final</span> <span class="c-type">LogisticClassifier</span> <span class="c-var">model</span>;</span>
+              </div>
+              <div class="code-line">
+                <span class="line-no">03</span>
+                <span class="code-content">&nbsp;&nbsp;<span class="c-keyword">private final</span> <span class="c-type">GeoIPService</span> <span class="c-var">geoIntelligence</span>;</span>
+              </div>
+              <div class="code-line">
+                <span class="line-no">04</span>
+                <span class="code-content"></span>
+              </div>
+              <div class="code-line">
+                <span class="line-no">05</span>
+                <span class="code-content">&nbsp;&nbsp;<span class="c-keyword">public</span> <span class="c-type">ForensicReport</span> <span class="c-fn">analyzeEmail</span>(<span class="c-type">RawEmail</span> <span class="c-var">email</span>) {</span>
+              </div>
+              <div class="code-line">
+                <span class="line-no">06</span>
+                <span class="code-content">&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-type">double</span> <span class="c-var">score</span> = <span class="c-var">model</span>.<span class="c-fn">predictRisk</span>(<span class="c-var">email</span>.<span class="c-fn">getTfIdfVectors</span>());</span>
+              </div>
+              <div class="code-line">
+                <span class="line-no">07</span>
+                <span class="code-content">&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-type">Location</span> <span class="c-var">origin</span> = <span class="c-var">geoIntelligence</span>.<span class="c-fn">locate</span>(<span class="c-var">email</span>.<span class="c-fn">getOriginIP</span>());</span>
+              </div>
+              <div class="code-line">
+                <span class="line-no">08</span>
+                <span class="code-content">&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-comment">// Evidence fusion: headers + URL + IP reputation</span></span>
+              </div>
+              <div class="code-line">
+                <span class="line-no">09</span>
+                <span class="code-content">&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-keyword">return new</span> <span class="c-type">ForensicReport</span>(<span class="c-var">score</span>, <span class="c-var">origin</span>, <span class="c-str">"TRIAGED"</span>);</span>
+              </div>
+              <div class="code-line">
+                <span class="line-no">10</span>
+                <span class="code-content">&nbsp;&nbsp;}</span>
+              </div>
+              <div class="code-line">
+                <span class="line-no">11</span>
+                <span class="code-content">}</span>
+              </div>
+
+              <!-- Technical Metric Callouts -->
+              <div class="terminal-metrics-box">
+                <div class="t-metric">
+                  <div class="t-metric-label">Model Accuracy</div>
+                  <div class="t-metric-value">96.49%</div>
+                </div>
+                <div class="t-metric">
+                  <div class="t-metric-label">Test Samples</div>
+                  <div class="t-metric-value">3,727 Verified</div>
+                </div>
+                <div class="t-metric">
+                  <div class="t-metric-label">DSA Solved</div>
+                  <div class="t-metric-value">140+ Problems</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Recruiter 5-Second Quick Snapshot Strip -->
+        <div class="recruiter-quick-strip" aria-label="Recruiter Quick Facts">
+          <div class="quick-stat-item">
+            <span class="quick-stat-icon">🎓</span>
+            <div>
+              <span class="quick-stat-val">3rd Year B.E. CSE</span>
+              <span class="quick-stat-desc">Bannari Amman Inst of Tech (2027)</span>
+            </div>
+          </div>
+          <div class="quick-stat-item">
+            <span class="quick-stat-icon">📈</span>
+            <div>
+              <span class="quick-stat-val">8.10 CGPA</span>
+              <span class="quick-stat-desc">Consistent Academic Standing</span>
+            </div>
+          </div>
+          <div class="quick-stat-item">
+            <span class="quick-stat-icon">☕</span>
+            <div>
+              <span class="quick-stat-val">Java &amp; Full-Stack</span>
+              <span class="quick-stat-desc">Spring Boot, React, FastAPI, MySQL</span>
+            </div>
+          </div>
+          <div class="quick-stat-item">
+            <span class="quick-stat-icon">🧩</span>
+            <div>
+              <span class="quick-stat-val">140+ DSA Solved</span>
+              <span class="quick-stat-desc">Competitive Algorithmic Practice</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         03. ABOUT SECTION
+         ======================================================================= -->
+    <section class="section section-alt" id="about">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">01 — Background</div>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">
+            Turning theoretical computer science concepts into working, scalable software products.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left: Refined Profile Card & Academic Proof -->
+          <div class="about-photo-wrapper">
+            <div class="about-photo-card">
+              <div class="about-photo-frame">
+                <img src="assets/images/DILLU.jpg" alt="Dilshand B - Computer Science Engineering Student" class="about-photo" />
+              </div>
+              <div class="about-photo-info">
+                <div class="about-photo-name">Dilshand B</div>
+                <div class="about-photo-meta">CSE 3rd Year • Bannari Amman Institute of Technology</div>
+              </div>
+            </div>
+
+            <div class="education-pill-card">
+              <div class="edu-icon-box" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <div class="edu-text">
+                <h4>Academic Performance</h4>
+                <p>Consistent CGPA: <strong>8.10 / 10</strong></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Engineering Narrative & Focus Areas -->
+          <div class="about-details">
+            <div class="about-lead">
+              "Computer Science Engineering student passionate about building practical software applications, solving problems with Java and DSA, and developing full-stack and AI-powered solutions."
+            </div>
+
+            <p class="about-text-body">
+              I am a third-year Computer Science and Engineering student at Bannari Amman Institute of Technology with a strong foundation in academics and discipline developed over 14 years at K.G. International School.
+            </p>
+
+            <p class="about-text-body">
+              Rather than only learning theory, I focus on turning ideas into working products. My engineering experience spans building AI-driven email threat forensic platforms, parametric income protection models for hackathons (DEVTrails 2026), and modular object-oriented systems with Java and MySQL.
+            </p>
+
+            <!-- Focus Areas Grid -->
+            <div class="focus-card-group">
+              <div class="focus-header">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+                <h3>Currently Focusing On</h3>
+              </div>
+
+              <div class="focus-badge-grid">
+                <div class="focus-item">
+                  <span class="focus-dot"></span>
+                  <span class="focus-name">Core Java &amp; OOP Architecture</span>
+                </div>
+                <div class="focus-item">
+                  <span class="focus-dot"></span>
+                  <span class="focus-name">Data Structures &amp; Algorithms (DSA)</span>
+                </div>
+                <div class="focus-item">
+                  <span class="focus-dot"></span>
+                  <span class="focus-name">Full-Stack Web (React + FastAPI + Spring)</span>
+                </div>
+                <div class="focus-item">
+                  <span class="focus-dot"></span>
+                  <span class="focus-name">AI Threat Intelligence &amp; Forensics</span>
+                </div>
+                <div class="focus-item">
+                  <span class="focus-dot"></span>
+                  <span class="focus-name">Relational Databases (MySQL &amp; Normalization)</span>
+                </div>
+                <div class="focus-item">
+                  <span class="focus-dot"></span>
+                  <span class="focus-name">System Design &amp; Cloud (AWS)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         04. SKILLS SECTION
+         ======================================================================= -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">02 — Competencies</div>
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-subtitle">
+            Categorized technical capabilities proven through real projects and industry certifications. Zero arbitrary percentage meters.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Card 01: Programming Languages -->
+          <div class="skill-category-card">
+            <div class="skill-card-top">
+              <div>
+                <span class="skill-index">01</span>
+                <h3 class="skill-title">Programming</h3>
+              </div>
+              <div class="skill-icon-box" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+            </div>
+            <div class="skill-pills-list">
+              <span class="skill-pill">Java</span>
+              <span class="skill-pill">Python</span>
+              <span class="skill-pill">C</span>
+              <span class="skill-pill">JavaScript</span>
+              <span class="skill-pill">SQL</span>
+            </div>
+            <div class="skill-card-footer">
+              Core strength in OOP, memory management, and algorithmic thinking.
+            </div>
+          </div>
+
+          <!-- Card 02: Frontend -->
+          <div class="skill-category-card">
+            <div class="skill-card-top">
+              <div>
+                <span class="skill-index">02</span>
+                <h3 class="skill-title">Frontend</h3>
+              </div>
+              <div class="skill-icon-box" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="3" y1="9" x2="21" y2="9"></line>
+                  <line x1="9" y1="21" x2="9" y2="9"></line>
+                </svg>
+              </div>
+            </div>
+            <div class="skill-pills-list">
+              <span class="skill-pill">HTML5</span>
+              <span class="skill-pill">CSS3</span>
+              <span class="skill-pill">JavaScript (ES6+)</span>
+              <span class="skill-pill">React</span>
+              <span class="skill-pill">Responsive Design</span>
+            </div>
+            <div class="skill-card-footer">
+              Building accessible, fast, and responsive user interfaces.
+            </div>
+          </div>
+
+          <!-- Card 03: Backend & APIs -->
+          <div class="skill-category-card">
+            <div class="skill-card-top">
+              <div>
+                <span class="skill-index">03</span>
+                <h3 class="skill-title">Backend &amp; APIs</h3>
+              </div>
+              <div class="skill-icon-box" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                  <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                  <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                  <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                </svg>
+              </div>
+            </div>
+            <div class="skill-pills-list">
+              <span class="skill-pill">Java</span>
+              <span class="skill-pill">Spring Boot</span>
+              <span class="skill-pill">FastAPI</span>
+              <span class="skill-pill">REST APIs</span>
+            </div>
+            <div class="skill-card-footer">
+              Developing structured server endpoints, auth, and async pipelines.
+            </div>
+          </div>
+
+          <!-- Card 04: Databases -->
+          <div class="skill-category-card">
+            <div class="skill-card-top">
+              <div>
+                <span class="skill-index">04</span>
+                <h3 class="skill-title">Databases</h3>
+              </div>
+              <div class="skill-icon-box" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="skill-pills-list">
+              <span class="skill-pill">MySQL</span>
+              <span class="skill-pill">MongoDB</span>
+              <span class="skill-pill">Schema Design</span>
+              <span class="skill-pill">Normalization</span>
+            </div>
+            <div class="skill-card-footer">
+              Relational query optimization, indexing, and data modeling.
+            </div>
+          </div>
+
+          <!-- Card 05: AI / Data -->
+          <div class="skill-category-card">
+            <div class="skill-card-top">
+              <div>
+                <span class="skill-index">05</span>
+                <h3 class="skill-title">AI &amp; Data</h3>
+              </div>
+              <div class="skill-icon-box" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"></path>
+                  <path d="M12 6a6 6 0 0 0-6 6c0 2.2 1.2 4.1 3 5.2V16a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1.2c1.8-1.1 3-3 3-5.2a6 6 0 0 0-6-6z"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="skill-pills-list">
+              <span class="skill-pill">Machine Learning</span>
+              <span class="skill-pill">NLP</span>
+              <span class="skill-pill">TF-IDF</span>
+              <span class="skill-pill">Scikit-learn</span>
+              <span class="skill-pill">Cybersecurity Fundamentals</span>
+            </div>
+            <div class="skill-card-footer">
+              Feature extraction, classification modeling, and evidence scoring.
+            </div>
+          </div>
+
+          <!-- Card 06: Tools & Cloud -->
+          <div class="skill-category-card">
+            <div class="skill-card-top">
+              <div>
+                <span class="skill-index">06</span>
+                <h3 class="skill-title">Tools &amp; Cloud</h3>
+              </div>
+              <div class="skill-icon-box" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="skill-pills-list">
+              <span class="skill-pill">Git</span>
+              <span class="skill-pill">GitHub</span>
+              <span class="skill-pill">VS Code</span>
+              <span class="skill-pill">AWS (Cloud Practitioner)</span>
+            </div>
+            <div class="skill-card-footer">
+              Version control, continuous integration, and cloud services.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         05. FEATURED PROJECTS ("SELECTED WORK")
+         ======================================================================= -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">03 — Portfolio</div>
+          <h2 class="section-title">Selected Work</h2>
+          <p class="section-subtitle">
+            Projects where I turned ideas into working solutions, verified with measurable results and active repositories.
+          </p>
+        </div>
+
+        <div class="projects-container">
+
+          <!-- =================================================================
+               PROJECT 1: MAVERICK
+               ================================================================= -->
+          <article class="project-card" id="project-maverick">
+            <div class="project-card-layout">
+              <!-- Left: Project Information -->
+              <div class="project-info">
+                <div>
+                  <div class="project-meta-row">
+                    <span class="project-number">01</span>
+                    <span class="project-tag-pill">AI &amp; Cybersecurity Platform</span>
+                  </div>
+
+                  <h3 class="project-title">MAVERICK</h3>
+                  <div class="project-subtitle">
+                    AI-Powered Email Threat Detection, Geolocation &amp; Forensic Intelligence Platform
+                  </div>
+
+                  <p class="project-description">
+                    MAVERICK combines machine learning, email forensics, IP geolocation and evidence analysis to help identify and investigate phishing threats. It performs multi-dimensional triage across raw RFC-822 email headers, message bodies, URL redirects, and sender server IP reputation.
+                  </p>
+
+                  <div class="project-tech-tags">
+                    <span class="p-tech-pill">React</span>
+                    <span class="p-tech-pill">Python</span>
+                    <span class="p-tech-pill">FastAPI</span>
+                    <span class="p-tech-pill">Scikit-learn</span>
+                    <span class="p-tech-pill">TF-IDF</span>
+                    <span class="p-tech-pill">Logistic Regression</span>
+                    <span class="p-tech-pill">Machine Learning</span>
+                    <span class="p-tech-pill">Cybersecurity</span>
+                  </div>
+
+                  <!-- Measurable Result Strip -->
+                  <div class="project-metrics-strip">
+                    <div class="p-metric-item">
+                      <span class="p-metric-num highlight">96.49%</span>
+                      <span class="p-metric-label">Model Accuracy</span>
+                    </div>
+                    <div class="p-metric-item">
+                      <span class="p-metric-num">3,727</span>
+                      <span class="p-metric-label">Test Samples</span>
+                    </div>
+                    <div class="p-metric-item">
+                      <span class="p-metric-num">TF-IDF + LogReg</span>
+                      <span class="p-metric-label">Trained Architecture</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="project-actions">
+                  <a href="https://phishguard-ai-mu-fawn.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                    Live Demo
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </a>
+                  <a href="https://github.com/DILSHAND2025/phishguard-ai" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                    GitHub
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                    </svg>
+                  </a>
+                  <button type="button" class="btn btn-ghost btn-sm open-case-study-btn" aria-haspopup="dialog">
+                    View Case Study
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                      <line x1="9" y1="3" x2="9" y2="21"></line>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Right: Visual Interactive Triage Preview -->
+              <div class="project-visual">
+                <div class="interactive-preview-card" aria-label="MAVERICK Forensic Triage Interface Preview">
+                  <div class="preview-bar">
+                    <span>maverick-investigator-v2.1</span>
+                    <span style="color: #059669; font-weight: 600;">● ML ONLINE</span>
+                  </div>
+                  <div class="preview-content">
+                    <div class="threat-rating-box">
+                      <div>
+                        <div style="font-size: 0.6875rem; color: #991b1b; text-transform: uppercase; font-weight: 700;">Calculated Threat Score</div>
+                        <div class="threat-score-val">88 / 100</div>
+                      </div>
+                      <span class="threat-badge">High Risk Phishing</span>
+                    </div>
+
+                    <div class="forensic-mini-grid">
+                      <div class="f-mini-item">
+                        <div class="f-mini-title">Model Confidence</div>
+                        <div class="f-mini-val">96.49% (3,727 Test)</div>
+                      </div>
+                      <div class="f-mini-item">
+                        <div class="f-mini-title">Extracted Origin IP</div>
+                        <div class="f-mini-val">185.220.101.5 (Tor Exit)</div>
+                      </div>
+                      <div class="f-mini-item">
+                        <div class="f-mini-title">SPF / DKIM Check</div>
+                        <div class="f-mini-val" style="color: #dc2626;">FAIL / SOFTFAIL</div>
+                      </div>
+                      <div class="f-mini-item">
+                        <div class="f-mini-title">Target URL Risk</div>
+                        <div class="f-mini-val" style="color: #dc2626;">Spoofed Domain</div>
+                      </div>
+                    </div>
+
+                    <div style="font-size: 0.75rem; color: var(--text-muted); border-top: 1px dashed var(--border-subtle); padding-top: 10px;">
+                      <strong>Forensic Features:</strong> Email header analysis • IP extraction &amp; geolocation • URL redirection risk • Threat scoring.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- =================================================================
+               PROJECT 2: GIGSHIELD AI
+               ================================================================= -->
+          <article class="project-card project-card-reversed" id="project-gigshield">
+            <div class="project-card-layout">
+              <!-- Left: Visual Card -->
+              <div class="project-visual">
+                <div class="interactive-preview-card" aria-label="GigShield AI Parametric Trigger Card">
+                  <div class="preview-bar">
+                    <span>DEVTrails 2026 • BIT's Visionary Victors</span>
+                    <span style="color: #2563eb; font-weight: 600;">ACTIVE PLAN</span>
+                  </div>
+                  <div class="preview-content">
+                    <div style="background-color: #eff6ff; border: 1px solid #bfdbfe; border-radius: var(--radius-md); padding: 14px; margin-bottom: 14px;">
+                      <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;">
+                        <span style="font-size: 0.75rem; font-weight: 700; color: #1e40af; text-transform: uppercase;">Parametric Trigger</span>
+                        <span style="font-size: 0.75rem; font-weight: 600; color: #059669;">Auto-Disbursed</span>
+                      </div>
+                      <div style="font-size: 1.25rem; font-weight: 800; color: #1e3a8a;">₹500 Coverage Relief</div>
+                      <div style="font-size: 0.75rem; color: #3b82f6; margin-top: 2px;">Micro-premium: ₹25/week plan</div>
+                    </div>
+
+                    <div class="forensic-mini-grid">
+                      <div class="f-mini-item">
+                        <div class="f-mini-title">Trigger Event</div>
+                        <div class="f-mini-val">Severe Rain / Heatwave</div>
+                      </div>
+                      <div class="f-mini-item">
+                        <div class="f-mini-title">Target Audience</div>
+                        <div class="f-mini-val">Delivery &amp; Ride Gig Workers</div>
+                      </div>
+                      <div class="f-mini-item">
+                        <div class="f-mini-title">Verification Speed</div>
+                        <div class="f-mini-val">&lt; 60s Automated</div>
+                      </div>
+                      <div class="f-mini-item">
+                        <div class="f-mini-title">Claim Mechanism</div>
+                        <div class="f-mini-val">Zero-paperwork Trigger</div>
+                      </div>
+                    </div>
+
+                    <div style="font-size: 0.75rem; color: var(--text-muted); border-top: 1px dashed var(--border-subtle); padding-top: 10px;">
+                      Built for <strong>Guidewire DEVTrails 2026</strong> Hackathon by Team BIT's Visionary Victors.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Right: Project Information -->
+              <div class="project-info">
+                <div>
+                  <div class="project-meta-row">
+                    <span class="project-number">02</span>
+                    <span class="project-tag-pill">Parametric InsurTech Platform</span>
+                  </div>
+
+                  <h3 class="project-title">GigShield AI</h3>
+                  <div class="project-subtitle">
+                    AI-Powered Parametric Income Protection for Gig Workers
+                  </div>
+
+                  <p class="project-description">
+                    An insurance platform concept designed to protect gig workers against income loss caused by external disruptions such as severe weather, floods, and curfews. Developed for the Guidewire DEVTrails 2026 hackathon by Team BIT's Visionary Victors.
+                  </p>
+
+                  <div class="project-tech-tags">
+                    <span class="p-tech-pill">React</span>
+                    <span class="p-tech-pill">JavaScript</span>
+                    <span class="p-tech-pill">AI</span>
+                    <span class="p-tech-pill">Web Development</span>
+                    <span class="p-tech-pill">DEVTrails 2026</span>
+                  </div>
+
+                  <div class="project-metrics-strip">
+                    <div class="p-metric-item">
+                      <span class="p-metric-num highlight">₹25 / wk</span>
+                      <span class="p-metric-label">Micro-Premium Plan</span>
+                    </div>
+                    <div class="p-metric-item">
+                      <span class="p-metric-num">₹500</span>
+                      <span class="p-metric-label">Direct Coverage Payout</span>
+                    </div>
+                    <div class="p-metric-item">
+                      <span class="p-metric-num">DEVTrails 2026</span>
+                      <span class="p-metric-label">Team Visionary Victors</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="project-actions">
+                  <a href="https://dilshand2025.github.io/Guidewire_DEVTrail-2026/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                    Live Demo
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </a>
+                  <a href="https://github.com/DILSHAND2025/Guidewire_DEVTrail-2026" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                    GitHub Repository
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- =================================================================
+               PROJECT 3: JAVA & PROBLEM SOLVING
+               ================================================================= -->
+          <article class="project-card" id="project-java-dsa">
+            <div class="project-card-layout">
+              <!-- Left: Project Information -->
+              <div class="project-info">
+                <div>
+                  <div class="project-meta-row">
+                    <span class="project-number">03</span>
+                    <span class="project-tag-pill">Java Systems &amp; DSA</span>
+                  </div>
+
+                  <h3 class="project-title">Java Software Architecture &amp; DSA</h3>
+                  <div class="project-subtitle">
+                    Modular Object-Oriented System Design &amp; 140+ Algorithmic Challenge Solutions
+                  </div>
+
+                  <p class="project-description">
+                    Engineered object-oriented student record and data management systems in Java utilizing clean architecture, encapsulation, exception handling, and MySQL persistence. Complemented by active algorithmic problem solving across 140+ challenges covering arrays, two-pointers, hash tables, and search algorithms.
+                  </p>
+
+                  <div class="project-tech-tags">
+                    <span class="p-tech-pill">Java</span>
+                    <span class="p-tech-pill">OOP</span>
+                    <span class="p-tech-pill">Collections Framework</span>
+                    <span class="p-tech-pill">MySQL</span>
+                    <span class="p-tech-pill">DSA</span>
+                    <span class="p-tech-pill">Problem Solving</span>
+                  </div>
+
+                  <div class="project-metrics-strip">
+                    <div class="p-metric-item">
+                      <span class="p-metric-num highlight">140+</span>
+                      <span class="p-metric-label">Problems Solved</span>
+                    </div>
+                    <div class="p-metric-item">
+                      <span class="p-metric-num">Java SE 17</span>
+                      <span class="p-metric-label">Certified Developer</span>
+                    </div>
+                    <div class="p-metric-item">
+                      <span class="p-metric-num">CRUD &amp; Cache</span>
+                      <span class="p-metric-label">OOP Architecture</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="project-actions">
+                  <a href="https://github.com/DILSHAND2025/Student-Record-Management" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                    Student Records Repo
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                    </svg>
+                  </a>
+                  <a href="https://github.com/DILSHAND2025/DSA" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                    DSA Submissions
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                    </svg>
+                  </a>
+                  <a href="https://leetcode.com/u/DILSHAND2025/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                    LeetCode Profile (140+)
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Right: Java Architecture Code Snippet -->
+              <div class="project-visual">
+                <div class="interactive-preview-card" aria-label="Student Record Management Code Architecture">
+                  <div class="preview-bar">
+                    <span>StudentRecordManager.java</span>
+                    <span style="color: #64748b;">OOP / MySQL</span>
+                  </div>
+                  <div class="preview-content">
+                    <pre style="font-family: var(--font-mono); font-size: 0.78rem; line-height: 1.6; color: #1e293b; overflow-x: auto;"><code><span style="color: #7c3aed; font-weight:600;">public class</span> StudentService {
+  <span style="color: #7c3aed; font-weight:600;">private final</span> Map&lt;String, Student&gt; cache = <span style="color: #7c3aed; font-weight:600;">new</span> HashMap&lt;&gt;();
+
+  <span style="color: #7c3aed; font-weight:600;">public</span> <span style="color: #2563eb;">void</span> addRecord(Student s) {
+    validate(s);
+    cache.put(s.getId(), s);
+    dbRepo.save(s);
+  }
+}</code></pre>
+                    <div style="font-size: 0.75rem; color: var(--text-muted); border-top: 1px dashed var(--border-subtle); padding-top: 10px; margin-top: 12px;">
+                      Focus on modular layering, validation patterns, and collection retrieval complexity.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Additional Notable Web Applications -->
+        <div class="compact-projects-grid">
+          <!-- Music Player -->
+          <div class="compact-project-card">
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px;">
+                <span class="p-tech-pill">Frontend Web App</span>
+                <span style="font-size: 0.75rem; color: #059669; font-weight: 600;">● Live Web</span>
+              </div>
+              <h4 class="compact-p-title">Interactive Music Player</h4>
+              <p class="compact-p-desc">
+                Modern responsive web music player featuring custom playback scrubbers, audio spectrum visualization, playlist queues, and clean DOM manipulation.
+              </p>
+            </div>
+            <div style="display: flex; gap: 10px;">
+              <a href="https://dilshand2025.github.io/Music-player/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                Live App ↗
+              </a>
+              <a href="https://github.com/DILSHAND2025/Music-player" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                GitHub
+              </a>
+            </div>
+          </div>
+
+          <!-- Chat UI -->
+          <div class="compact-project-card">
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px;">
+                <span class="p-tech-pill">UI/UX Architecture</span>
+                <span style="font-size: 0.75rem; color: #059669; font-weight: 600;">● Live Web</span>
+              </div>
+              <h4 class="compact-p-title">Modern Chat Interface</h4>
+              <p class="compact-p-desc">
+                Clean and responsive conversational chat interface with real-time style bubbles, responsive sidebars, typing indicators, and modern layout hierarchy.
+              </p>
+            </div>
+            <div style="display: flex; gap: 10px;">
+              <a href="https://dilshand2025.github.io/Chat-UI/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                Live App ↗
+              </a>
+              <a href="https://github.com/DILSHAND2025/Chat-UI" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         06. ACHIEVEMENTS SECTION
+         ======================================================================= -->
+    <section class="section" id="achievements">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">04 — Milestones</div>
+          <h2 class="section-title">Verified Achievements</h2>
+          <p class="section-subtitle">
+            Academic milestones, competitive hackathon experience, and technical certifications.
+          </p>
+        </div>
+
+        <div class="achievements-grid">
+          <!-- Item 1: DEVTrails 2026 -->
+          <div class="achievement-card">
+            <div class="achievement-icon-box" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
+            </div>
+            <div class="achievement-details">
+              <span class="achievement-badge">Hackathon 2026</span>
+              <h3 class="achievement-title">DEVTrails 2026 — Team BIT's Visionary Victors</h3>
+              <p class="achievement-description">
+                Developed GigShield AI, an innovative parametric insurance platform engineered to deliver automatic micro-coverage relief to gig delivery workers during severe weather and local disruptions.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 2: Oracle Java SE 17 -->
+          <div class="achievement-card">
+            <div class="achievement-icon-box" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+              </svg>
+            </div>
+            <div class="achievement-details">
+              <span class="achievement-badge">Industry Credential</span>
+              <h3 class="achievement-title">Oracle Certified Java SE 17 Developer</h3>
+              <p class="achievement-description">
+                Verified certification in Java SE 17 covering OOP design, modern Java syntax, streams, lambda expressions, concurrency primitives, and modular architecture.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 3: AWS Cloud Practitioner -->
+          <div class="achievement-card">
+            <div class="achievement-icon-box" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"></path>
+              </svg>
+            </div>
+            <div class="achievement-details">
+              <span class="achievement-badge">Cloud Foundations</span>
+              <h3 class="achievement-title">AWS Cloud Practitioner Course Completion</h3>
+              <p class="achievement-description">
+                Comprehensive training in Amazon Web Services cloud architecture, identity management (IAM), compute (EC2), storage (S3), security, and serverless fundamentals.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 4: 140+ Problem Solving Milestones -->
+          <div class="achievement-card">
+            <div class="achievement-icon-box" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+              </svg>
+            </div>
+            <div class="achievement-details">
+              <span class="achievement-badge">Algorithmic Practice</span>
+              <h3 class="achievement-title">140+ Coding Problems Solved</h3>
+              <p class="achievement-description">
+                Regular competitive coding and problem-solving across LeetCode, tackling core arrays, string manipulation, hash maps, two pointers, binary search, and recursive trees.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 5: Academic Standing -->
+          <div class="achievement-card">
+            <div class="achievement-icon-box" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+            </div>
+            <div class="achievement-details">
+              <span class="achievement-badge">Academic Record</span>
+              <h3 class="achievement-title">8.10 CGPA in Computer Science</h3>
+              <p class="achievement-description">
+                Maintaining consistent performance at Bannari Amman Institute of Technology, with strong foundations in systems, databases, operating systems, and computer networks.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 6: Leadership -->
+          <div class="achievement-card">
+            <div class="achievement-icon-box" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <div class="achievement-details">
+              <span class="achievement-badge">Leadership</span>
+              <h3 class="achievement-title">School Pupil Leader (SPL)</h3>
+              <p class="achievement-description">
+                Elected School Pupil Leader at K.G. International School, coordinating student council initiatives, organizing campus events, and fostering discipline and teamwork.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         07. CERTIFICATIONS SECTION
+         ======================================================================= -->
+    <section class="section section-alt" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">05 — Credentials</div>
+          <h2 class="section-title">Certifications</h2>
+          <p class="section-subtitle">
+            Industry credentials directly viewable as original PDF certificates.
+          </p>
+        </div>
+
+        <div class="certificates-grid">
+          <!-- Cert 1: Oracle Java SE 17 -->
+          <div class="certificate-card">
+            <div>
+              <div class="cert-card-header">
+                <span class="cert-issuer-badge">Oracle</span>
+                <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted);">2026</span>
+              </div>
+              <h3 class="cert-title">Oracle Java SE 17 Developer Certificate</h3>
+              <div class="cert-issuer-name">Oracle University</div>
+            </div>
+            <div class="cert-card-footer">
+              <span class="cert-status">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Verified PDF
+              </span>
+              <a href="assets/certificates/oracle-java-se-17-certificate.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                View Certificate ↗
+              </a>
+            </div>
+          </div>
+
+          <!-- Cert 2: AWS Course Completion -->
+          <div class="certificate-card">
+            <div>
+              <div class="cert-card-header">
+                <span class="cert-issuer-badge">Amazon Web Services</span>
+                <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted);">2025</span>
+              </div>
+              <h3 class="cert-title">AWS Cloud Practitioner Certificate</h3>
+              <div class="cert-issuer-name">Amazon Web Services (AWS)</div>
+            </div>
+            <div class="cert-card-footer">
+              <span class="cert-status">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Verified PDF
+              </span>
+              <a href="assets/certificates/aws-cloud-practitioner-certificate.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                View Certificate ↗
+              </a>
+            </div>
+          </div>
+
+          <!-- Cert 3: Oracle AI Foundation Associate -->
+          <div class="certificate-card">
+            <div>
+              <div class="cert-card-header">
+                <span class="cert-issuer-badge">Oracle</span>
+                <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted);">2025</span>
+              </div>
+              <h3 class="cert-title">Oracle AI Foundations Associate</h3>
+              <div class="cert-issuer-name">Oracle Certified Associate</div>
+            </div>
+            <div class="cert-card-footer">
+              <span class="cert-status">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Verified PDF
+              </span>
+              <a href="assets/certificates/oracle-ai-foundation-associate.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                View Certificate ↗
+              </a>
+            </div>
+          </div>
+
+          <!-- Cert 4: Oracle OCI Foundation Associate -->
+          <div class="certificate-card">
+            <div>
+              <div class="cert-card-header">
+                <span class="cert-issuer-badge">Oracle</span>
+                <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted);">2025</span>
+              </div>
+              <h3 class="cert-title">Oracle Cloud Infrastructure Foundations Associate</h3>
+              <div class="cert-issuer-name">Oracle Certified Associate</div>
+            </div>
+            <div class="cert-card-footer">
+              <span class="cert-status">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Verified PDF
+              </span>
+              <a href="assets/certificates/oracle-cloud-foundation-associate.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                View Certificate ↗
+              </a>
+            </div>
+          </div>
+
+          <!-- Cert 5: Programming in C (Infosys) -->
+          <div class="certificate-card">
+            <div>
+              <div class="cert-card-header">
+                <span class="cert-issuer-badge">Infosys</span>
+                <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted);">2025</span>
+              </div>
+              <h3 class="cert-title">Programming in C Certification</h3>
+              <div class="cert-issuer-name">Infosys Springboard</div>
+            </div>
+            <div class="cert-card-footer">
+              <span class="cert-status">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Verified PDF
+              </span>
+              <a href="assets/certificates/infosys-programming-in-c.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                View Certificate ↗
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         08. CODING PROFILE SECTION ("BEYOND THE PROJECTS")
+         ======================================================================= -->
+    <section class="section" id="coding-profiles">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">06 — Activity</div>
+          <h2 class="section-title">Beyond the Projects</h2>
+          <p class="section-subtitle">
+            Active repositories, continuous problem solving, and professional network.
+          </p>
+        </div>
+
+        <div class="profiles-grid">
+          <!-- Card 1: GitHub -->
+          <div class="profile-card">
+            <div class="profile-card-top">
+              <div class="profile-icon-box icon-github" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+              </div>
+              <span class="profile-handle">@DILSHAND2025</span>
+            </div>
+            <h3 class="profile-title">GitHub</h3>
+            <div class="profile-metric">10 Public Repositories</div>
+            <p class="profile-desc">
+              Open-source repositories including cybersecurity AI triage, parametric insurtech models, Java OOP systems, and frontend web applications.
+            </p>
+            <a href="https://github.com/DILSHAND2025" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+              Explore GitHub Profile ↗
+            </a>
+          </div>
+
+          <!-- Card 2: LeetCode -->
+          <div class="profile-card">
+            <div class="profile-card-top">
+              <div class="profile-icon-box icon-leetcode" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M16.102 17.93l-2.697 2.607c-.466.467-1.111.662-1.823.662s-1.357-.195-1.824-.662l-4.332-4.363c-.467-.467-.702-1.15-.702-1.863s.235-1.357.702-1.824l4.319-4.38c.467-.467 1.125-.645 1.837-.645s1.357.195 1.823.662l2.697 2.606c.514.515 1.365.497 1.9-.038.535-.536.553-1.387.039-1.901l-2.609-2.636a5.215 5.215 0 0 0-3.85-1.455c-1.472 0-2.916.582-3.96 1.626L3.308 10.45C2.264 11.494 1.682 12.938 1.682 14.41s.582 2.916 1.626 3.96l4.332 4.363c1.044 1.044 2.488 1.626 3.96 1.626s2.916-.582 3.96-1.626l2.609-2.636c.514-.514.496-1.365-.039-1.901-.535-.535-1.386-.553-1.9.038z"/>
+                </svg>
+              </div>
+              <span class="profile-handle">@DILSHAND2025</span>
+            </div>
+            <h3 class="profile-title">LeetCode &amp; DSA</h3>
+            <div class="profile-metric">140+ Problems Solved</div>
+            <p class="profile-desc">
+              Dedicated problem-solving focused on data structures, algorithmic complexity, two-pointer techniques, dynamic lists, and Java collections.
+            </p>
+            <a href="https://leetcode.com/u/DILSHAND2025/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+              View LeetCode Activity ↗
+            </a>
+          </div>
+
+          <!-- Card 3: LinkedIn -->
+          <div class="profile-card">
+            <div class="profile-card-top">
+              <div class="profile-icon-box icon-linkedin" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+              </div>
+              <span class="profile-handle">dilshand-b-141581331</span>
+            </div>
+            <h3 class="profile-title">LinkedIn</h3>
+            <div class="profile-metric">Professional Network</div>
+            <p class="profile-desc">
+              Connecting with tech recruiters, engineers, and researchers to explore software engineering internships and collaborative projects.
+            </p>
+            <a href="https://www.linkedin.com/in/dilshand-b-141581331" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+              Connect on LinkedIn ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         09. CONTACT SECTION
+         ======================================================================= -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="contact-layout">
+          <!-- Left: Information & One-click Actions -->
+          <div class="contact-info-card">
+            <div>
+              <div class="section-tag">07 — Get in Touch</div>
+              <h2 class="contact-heading">Let's Build Something.</h2>
+              <p class="contact-subtext">
+                I'm always interested in learning, building, and collaborating on meaningful software projects. Whether you have an internship opportunity or want to discuss a project, my inbox is open.
+              </p>
+            </div>
+
+            <!-- Prominent Resume Action Card -->
+            <div class="contact-resume-banner">
+              <div class="contact-resume-text">
+                <h4>Looking for my official resume?</h4>
+                <p>View my ATS-friendly printable resume or save as PDF.</p>
+              </div>
+              <a href="resume/index.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                Download Resume
+              </a>
+            </div>
+
+            <div class="contact-items-list">
+              <!-- Email Row with One-Click Copy & Direct Mailto -->
+              <div class="contact-item-row">
+                <div class="c-icon-circle" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="c-row-text">
+                  <div class="c-row-label">Direct Email</div>
+                  <a href="mailto:dilshandcse@gmail.com" class="c-row-val" style="color: var(--text-primary);">dilshandcse@gmail.com</a>
+                </div>
+                <button type="button" class="copy-btn copy-email-btn" data-email="dilshandcse@gmail.com" title="Copy email address">
+                  Copy
+                </button>
+              </div>
+
+              <!-- GitHub Row -->
+              <a href="https://github.com/DILSHAND2025" target="_blank" rel="noopener noreferrer" class="contact-item-row">
+                <div class="c-icon-circle" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                </div>
+                <div class="c-row-text">
+                  <div class="c-row-label">GitHub</div>
+                  <div class="c-row-val">github.com/DILSHAND2025</div>
+                </div>
+                <span style="color: var(--accent-primary); font-size: 0.8125rem; font-weight: 600;">Visit ↗</span>
+              </a>
+
+              <!-- LinkedIn Row -->
+              <a href="https://www.linkedin.com/in/dilshand-b-141581331" target="_blank" rel="noopener noreferrer" class="contact-item-row">
+                <div class="c-icon-circle" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                </div>
+                <div class="c-row-text">
+                  <div class="c-row-label">LinkedIn</div>
+                  <div class="c-row-val">in/dilshand-b-141581331</div>
+                </div>
+                <span style="color: var(--accent-primary); font-size: 0.8125rem; font-weight: 600;">Connect ↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right: Functional Client-Side Contact Form -->
+          <div class="contact-form-box">
+            <h3>Send a Direct Message</h3>
+            <form id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Your Name</label>
+                <input type="text" id="contact-name" class="form-control" placeholder="e.g. Sarah Jenkins" required />
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Your Email</label>
+                <input type="email" id="contact-email" class="form-control" placeholder="e.g. s.jenkins@company.com" required />
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">Subject</label>
+                <input type="text" id="contact-subject" class="form-control" placeholder="Software Engineering Internship / Project Inquiry" />
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Message</label>
+                <textarea id="contact-message" class="form-control" placeholder="Hi Dilshand, I came across your portfolio and would like to discuss an opportunity..." required></textarea>
+              </div>
+
+              <div class="form-submit-row">
+                <button type="submit" class="btn btn-primary" id="contact-submit-btn">
+                  Send Message
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+                <span class="form-notice">Opens your default email client with prefilled details.</span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       10. MAVERICK FORENSIC CASE STUDY MODAL
+       ========================================================================= -->
+  <div class="modal-overlay" id="case-study-modal" role="dialog" aria-modal="true" aria-labelledby="modal-case-title" aria-hidden="true">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <h3 id="modal-case-title">MAVERICK Case Study</h3>
+          <p>AI-Powered Email Threat Detection, Geolocation &amp; Forensic Intelligence Platform</p>
+        </div>
+        <button class="modal-close-btn" id="close-case-study-btn" aria-label="Close Case Study Modal">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <!-- 01 Problem -->
+        <div class="case-section">
+          <h4 class="case-section-title">01 — The Problem</h4>
+          <p class="case-text">
+            Traditional email spam filters rely heavily on static blacklists and signature rules. Sophisticated modern phishing attacks easily evade these by rotating domains, employing homoglyph characters, and hosting payload redirectors behind legitimate cloud CDNs. Additionally, security teams lack transparent, consolidated forensic intelligence to rapidly understand why an incoming message poses danger.
+          </p>
+        </div>
+
+        <!-- 02 Solution -->
+        <div class="case-section">
+          <h4 class="case-section-title">02 — The Solution</h4>
+          <p class="case-text">
+            MAVERICK was engineered as a multi-stage threat intelligence platform. It analyzes email body text with a calibrated Natural Language Processing pipeline, extracts sender hops and IP headers for geolocation mapping, parses SPF/DKIM/DMARC authentication records, and fuses these indicators into a unified 0–100 threat score with actionable triage verdicts.
+          </p>
+        </div>
+
+        <!-- 03 Architecture Diagram -->
+        <div class="case-section">
+          <h4 class="case-section-title">03 — System Architecture</h4>
+          <div class="architecture-flow-diagram">
+            <div class="arch-flow-title">Pipeline Architecture Flow</div>
+            <div class="arch-steps-container">
+              <div class="arch-step-box">
+                <div class="arch-step-title">1. React UI</div>
+                <div class="arch-step-sub">Raw Email Ingestion</div>
+              </div>
+              <div class="arch-arrow">→</div>
+              <div class="arch-step-box">
+                <div class="arch-step-title">2. FastAPI Gateway</div>
+                <div class="arch-step-sub">Header &amp; URL Parsing</div>
+              </div>
+              <div class="arch-arrow">→</div>
+              <div class="arch-step-box">
+                <div class="arch-step-title">3. ML Classifier</div>
+                <div class="arch-step-sub">TF-IDF + Logistic Reg</div>
+              </div>
+              <div class="arch-arrow">→</div>
+              <div class="arch-step-box">
+                <div class="arch-step-title">4. Evidence Fusion</div>
+                <div class="arch-step-sub">GeoIP &amp; SPF Checks</div>
+              </div>
+              <div class="arch-arrow">→</div>
+              <div class="arch-step-box">
+                <div class="arch-step-title">5. Triage Verdict</div>
+                <div class="arch-step-sub">Threat Rating 0–100</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 04 Machine Learning Engine -->
+        <div class="case-section">
+          <h4 class="case-section-title">04 — Machine Learning &amp; Evaluation Results</h4>
+          <p class="case-text">
+            The detection engine uses a customized <strong>TF-IDF (Term Frequency-Inverse Document Frequency)</strong> feature extractor coupled with a tuned <strong>Logistic Regression</strong> classifier. The model was trained and evaluated against benchmark datasets of legitimate and malicious emails.
+          </p>
+          <div class="metrics-comparison-grid">
+            <div class="metric-stat-box">
+              <div class="stat-number">96.49%</div>
+              <div class="stat-label">Model Accuracy</div>
+            </div>
+            <div class="metric-stat-box">
+              <div class="stat-number">3,727</div>
+              <div class="stat-label">Evaluated Test Samples</div>
+            </div>
+            <div class="metric-stat-box">
+              <div class="stat-number">&lt; 120ms</div>
+              <div class="stat-label">Inference Latency</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 05 Key Forensic Capabilities -->
+        <div class="case-section">
+          <h4 class="case-section-title">05 — Key Forensic Capabilities</h4>
+          <ul style="list-style: disc; padding-left: 20px; color: var(--text-secondary); font-size: 0.9375rem; line-height: 1.7;">
+            <li><strong>Phishing Email Classification:</strong> Real-time linguistic feature extraction targeting urgency triggers, credential requests, and brand spoofing patterns.</li>
+            <li><strong>Email Header Inspection:</strong> Automated parsing of Received headers, SPF, DKIM, and DMARC alignment status.</li>
+            <li><strong>IP Extraction &amp; Geolocation:</strong> Tracing sender server IP hops and mapping geographic origin to pinpoint spoofed locations.</li>
+            <li><strong>URL Security Analysis:</strong> Extracting inline hyperlinks, detecting domain mismatch, and flagging suspicious redirection paths.</li>
+            <li><strong>Evidence Fusion &amp; Triage:</strong> Weighted aggregation combining ML confidence and cryptographic header checks into an interpretable threat rating.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <div style="font-size: 0.8125rem; color: var(--text-muted);">
+          Repository: <a href="https://github.com/DILSHAND2025/phishguard-ai" target="_blank" rel="noopener noreferrer" style="color: var(--accent-primary); font-weight: 600;">DILSHAND2025/phishguard-ai</a>
+        </div>
+        <div style="display: flex; gap: 10px;">
+          <a href="https://phishguard-ai-mu-fawn.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+            Launch Live Demo ↗
+          </a>
+          <a href="https://github.com/DILSHAND2025/phishguard-ai" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+            View Source Code
+          </a>
+        </div>
+      </div>
     </div>
   </div>
-</section>
 
-<section class="main-sections">
-  <div class="skills-container">
-    <h2>Skills</h2>
-    <ul class="skills-list">
-      <li><a href="c programming.html">C Programming</a></li>
-      <li><a href="Htmlcss.html">HTML &amp; CSS</a></li>
-      <li><a href="javascript.html">JavaScript</a></li>
-      <li><a href="python.html">Python</a></li>
-      <li><a href="MongoDB.html">JAVA</a></li>
-      <li><a href="Mysql.html">MySQL</a></li>
-      <li><a href="Web Development.html">Web Development</a></li>
-    </ul>
+  <!-- Toast Alert for Copy Feedback -->
+  <div class="toast-alert" id="toast-alert" role="status" aria-live="polite">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+    </svg>
+    <span class="toast-message">Email address copied to clipboard!</span>
   </div>
-  <div class="projects-container">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>CRUD App</h3>
-      <p>A simple app to create, read, update, and delete records.</p>
+
+  <!-- Floating Back to Top Button -->
+  <button type="button" class="back-to-top-btn" id="back-to-top-btn" aria-label="Scroll back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- =========================================================================
+       11. MINIMAL PROFESSIONAL FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h4>Dilshand B</h4>
+          <p>Computer Science Engineering • Bannari Amman Institute of Technology</p>
+        </div>
+
+        <nav class="footer-nav-list" aria-label="Footer Navigation">
+          <a href="#home" class="footer-nav-link">Home</a>
+          <a href="#about" class="footer-nav-link">About</a>
+          <a href="#skills" class="footer-nav-link">Skills</a>
+          <a href="#projects" class="footer-nav-link">Projects</a>
+          <a href="#achievements" class="footer-nav-link">Achievements</a>
+          <a href="#certifications" class="footer-nav-link">Certifications</a>
+          <a href="#contact" class="footer-nav-link">Contact</a>
+          <a href="resume/index.html" class="footer-nav-link" style="color: #60a5fa; font-weight: 600;">Resume ↗</a>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="current-year">2026</span> Dilshand B. All rights reserved.
+        </div>
+        <div class="footer-quote">
+          "Built with curiosity and code."
+        </div>
+        <div style="display: flex; gap: 16px;">
+          <a href="https://github.com/DILSHAND2025" target="_blank" rel="noopener noreferrer" class="footer-nav-link" title="GitHub">GitHub</a>
+          <a href="https://www.linkedin.com/in/dilshand-b-141581331" target="_blank" rel="noopener noreferrer" class="footer-nav-link" title="LinkedIn">LinkedIn</a>
+          <a href="https://leetcode.com/u/DILSHAND2025/" target="_blank" rel="noopener noreferrer" class="footer-nav-link" title="LeetCode">LeetCode</a>
+        </div>
+      </div>
     </div>
-    <div class="project">
-      <h3>Weather App</h3>
-      <p>Displays real-time weather using OpenWeather API.</p>
-    </div>
-  </div>
-</section>
-
-<hr>
-
-<section id="certificates">
-  <h2>Certificates</h2>
-  <div class="certificates-grid">
-    <a href="certificates\AWS Course Completion Certificate.pdf" target="_self" class="certificate-box">
-      <span>AWS Cloud Practitioner</span>
-      <small>Amazon</small>
-    </a>
-    <a href="certificates\eCertificate oracle  foundation associate.pdf" target="_self" class="certificate-box">
-      <span>Foundation associate</span>
-      <small>Oracle</small>
-    </a>
-    <a href="certificates\eCertificate oracle ai foundation associate.pdf" target="_self" class="certificate-box">
-      <span>AI Foundation associate</span>
-      <small>Oracle</small>
-    </a>
-    <a href="certificates\Oracle java SE-17 Certificate.pdf" target="_self" class="certificate-box">
-      <span>Java SE 17 Certificate</span>
-      <small>Oracle</small>
-    </a>
-    <a href="certificates\programming in c.pdf" target="_self" class="certificate-box">
-      <span>Infosys</span>
-      <small>C Programming</small>
-    </a>
-  </div>
-</section>
-
-<hr>
-
-<section id="contact">
-  <h2>Contact</h2>
-  <p>
-    <img src="images/mail.jpg" alt="Email" class="icon">
-    Email: dilshandcse@gmail.com
-  </p>
-  <p>
-    <img src="images/github.png" alt="GitHub" class="icon">
-    Github: <a href="https://github.com/DILSHAND2025" target="_blank">DILSHAND2025</a>
-  </p>
-  <p>
-    <img src="images/linkedin.jpg" alt="LinkedIn" class="icon">
-    Linkedin: <a href="https://www.linkedin.com/in/dilshand-b-141581331" target="_blank">dilshand-b-141581331</a>
-  </p>
-</section>
-
-  <footer>
-    <p>&copy; 2025 Dillu. All rights reserved.</p>
   </footer>
+
+  <!-- Production Script -->
+  <script src="js/script.js"></script>
 </body>
+</html>
