@@ -214,6 +214,22 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  const copyPhoneBtns = document.querySelectorAll('.copy-phone-btn');
+  copyPhoneBtns.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const phone = btn.getAttribute('data-phone') || '+91 9944667158';
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(phone).then(() => {
+          showToast(`Copied ${phone} to clipboard!`);
+        }).catch(() => {
+          fallbackCopy(phone);
+        });
+      } else {
+        fallbackCopy(phone);
+      }
+    });
+  });
+
   const fallbackCopy = (text) => {
     const tempInput = document.createElement('input');
     tempInput.value = text;
@@ -223,7 +239,7 @@ document.addEventListener('DOMContentLoaded', () => {
       document.execCommand('copy');
       showToast(`Copied ${text} to clipboard!`);
     } catch (err) {
-      window.prompt('Copy email address:', text);
+      window.prompt('Copy text:', text);
     }
     document.body.removeChild(tempInput);
   };
